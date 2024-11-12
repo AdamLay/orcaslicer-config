@@ -1,0 +1,16 @@
+{
+    "bottom_shell_layers": "6",
+    "brim_type": "outer_only",
+    "brim_width": "6",
+    "from": "User",
+    "inherits": "0.20mm Standard @Vzbot",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard @Vzbot - Copy",
+    "print_settings_id": "0.20mm Standard @Vzbot - Copy",
+    "skirt_loops": "3",
+    "sparse_infill_density": "33%",
+    "sparse_infill_pattern": "adaptivecubic",
+    "top_shell_layers": "6",
+    "version": "1.6.4.0",
+    "wall_loops": "4"
+}

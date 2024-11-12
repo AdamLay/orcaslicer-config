@@ -1,0 +1,25 @@
+{
+    "filament_flow_ratio": [
+        "0.93"
+    ],
+    "filament_settings_id": [
+        "My VMinion PETG"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_FILAMENT_PROFILE FILAMENT=PETG"
+    ],
+    "from": "User",
+    "inherits": "RatRig Generic PETG",
+    "is_custom_defined": "0",
+    "name": "My VMinion PETG",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "pressure_advance": [
+        "0.055"
+    ],
+    "version": "2.0.2.0"
+}

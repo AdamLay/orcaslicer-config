@@ -1,0 +1,16 @@
+{
+    "fan_min_speed": [
+        "75"
+    ],
+    "filament_settings_id": [
+        "V-Core PLA 5015"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_FILAMENT_PROFILE FILAMENT=PLA"
+    ],
+    "from": "User",
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "V-Core PLA 5015",
+    "version": "1.7.0.0"
+}

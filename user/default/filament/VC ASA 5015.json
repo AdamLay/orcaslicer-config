@@ -1,0 +1,19 @@
+{
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_settings_id": [
+        "VC ASA 5015"
+    ],
+    "from": "User",
+    "inherits": "RatRig Generic ASA",
+    "is_custom_defined": "0",
+    "name": "VC ASA 5015",
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "version": "1.7.0.0"
+}

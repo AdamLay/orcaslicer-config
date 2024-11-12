@@ -1,0 +1,15 @@
+{
+    "brim_width": "6",
+    "from": "User",
+    "inherits": "0.20mm Standard @Vzbot",
+    "is_custom_defined": "0",
+    "name": "VzBot Bases",
+    "print_settings_id": "VzBot Bases",
+    "skirt_loops": "4",
+    "sparse_infill_density": "10%",
+    "sparse_infill_pattern": "adaptivecubic",
+    "top_shell_layers": "1",
+    "top_shell_thickness": "0",
+    "version": "1.6.4.0",
+    "wall_loops": "4"
+}
