@@ -1,0 +1,9 @@
+{
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "name": "Voron 0.1 0.4 nozzle - Copy",
+    "printer_settings_id": "Voron 0.1 0.4 nozzle - Copy",
+    "version": "2.3.0.1"
+}

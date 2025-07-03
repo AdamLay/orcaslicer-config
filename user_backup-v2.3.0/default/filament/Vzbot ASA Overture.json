@@ -1,0 +1,28 @@
+{
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "fan_min_speed": [
+        "5"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_settings_id": [
+        "Vzbot ASA Overture"
+    ],
+    "from": "User",
+    "inherits": "Vzbot Generic ASA",
+    "is_custom_defined": "0",
+    "name": "Vzbot ASA Overture",
+    "overhang_fan_speed": [
+        "50"
+    ],
+    "overhang_fan_threshold": [
+        "50%"
+    ],
+    "version": "2.2.0.4"
+}

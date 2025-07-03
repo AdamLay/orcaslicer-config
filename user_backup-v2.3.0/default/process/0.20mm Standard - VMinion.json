@@ -1,0 +1,22 @@
+{
+    "brim_object_gap": "0.15",
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @RatRig",
+    "initial_layer_acceleration": "1000",
+    "initial_layer_infill_speed": "80",
+    "initial_layer_speed": "80",
+    "inner_wall_acceleration": "9000",
+    "internal_bridge_speed": "150",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard - VMinion",
+    "print_settings_id": "0.20mm Standard - VMinion",
+    "sparse_infill_acceleration": "9000",
+    "sparse_infill_density": "10%",
+    "sparse_infill_pattern": "adaptivecubic",
+    "sparse_infill_speed": "400",
+    "travel_acceleration": "9000",
+    "travel_speed": "400",
+    "version": "1.7.0.0",
+    "wall_loops": "2"
+}

@@ -1,0 +1,22 @@
+{
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_settings_id": [
+        "My Vzbot PETG"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_FILAMENT_PROFILE FILAMENT=PETG\n"
+    ],
+    "from": "User",
+    "inherits": "Vzbot Generic PETG",
+    "is_custom_defined": "0",
+    "name": "My Vzbot PETG",
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.6.4.0"
+}

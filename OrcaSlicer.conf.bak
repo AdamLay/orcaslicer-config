@@ -4,8 +4,10 @@
         "associate_3mf": false,
         "associate_step": false,
         "associate_stl": false,
+        "auto_arrange": true,
         "auto_calculate": true,
         "auto_calculate_when_filament_change": true,
+        "auto_perspective": false,
         "backup_interval": "10",
         "backup_switch": true,
         "camera_navigation_style": "0",
@@ -21,12 +23,13 @@
         "enable_ssl_for_ftp": true,
         "enable_ssl_for_mqtt": true,
         "flush_multiplier": "1.000000",
+        "import_project_action": "1",
         "internal_developer_mode": false,
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_GB",
-        "last_backup_path": "C:\\Users\\Adam\\AppData\\Local\\Temp/orcaslicer_model/Tue_Nov_12/22_28_28#42660#49",
-        "last_export_path": "C:\\Users\\Adam\\Downloads",
+        "last_backup_path": "C:\\Users\\Adam\\AppData\\Local\\Temp/orcaslicer_model/Thu_Jul_03/08_49_58#9032#49",
+        "last_export_path": "E:\\3D Printing\\__FDM\\Voron-Trident\\STLs\\Gantry\\AB_Drive_Units",
         "log_severity_level": "warning",
         "max_recent_count": "18",
         "max_send": "3",
@@ -42,11 +45,12 @@
         "print_host_queue_dialog_column_3": "80",
         "print_host_queue_dialog_column_4": "80",
         "print_host_queue_dialog_column_5": "80",
-        "print_host_queue_dialog_height": "60",
-        "print_host_queue_dialog_width": "30",
-        "print_host_queue_dialog_x": "486",
-        "print_host_queue_dialog_y": "710",
+        "print_host_queue_dialog_height": "207",
+        "print_host_queue_dialog_width": "90",
+        "print_host_queue_dialog_x": "492",
+        "print_host_queue_dialog_y": "399",
         "privacy_version": "00.00.00.00",
+        "project_load_behaviour": "ask_when_relevant",
         "region": "Europe",
         "remember_printer_config": true,
         "reverse_mouse_wheel_zoom": false,
@@ -55,15 +59,17 @@
         "show_3d_navigator": true,
         "show_build_edgets": false,
         "show_daily_tips": true,
+        "show_drop_project_dialog": true,
         "show_gcode_window": true,
         "show_hints": true,
         "show_home_page": true,
         "show_model_mesh": false,
         "show_model_shadow": true,
+        "show_outline": false,
         "show_printable_box": true,
         "show_splash_screen": true,
         "single_instance": false,
-        "skip_version": "2.2.0.0-Preview",
+        "skip_version": "",
         "slicer_uuid": "0019b32c-4669-4be6-b706-ed7895cd19c9",
         "staff_pick_switch": true,
         "stealth_mode": false,
@@ -77,14 +83,14 @@
         "use_legacy_3DConnexion": true,
         "use_perspective_camera": false,
         "user_mode": "advanced",
-        "version": "01.09.03.50",
-        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=420;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(4,0,0)=422|",
+        "version": "01.10.01.50",
+        "window_layout": "layout2|name=sidebar;caption=;state=1996;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=459;besth=900;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=20|dock_size(4,0,0)=461|",
         "window_mainframe": "2554; 0; 2566; 1392; 0",
         "zoom_to_mouse": false,
         "zoom_view": "none/mouse left"
     },
     "arrange": {
-        "enable_rotation_fff": true,
+        "enable_rotation_fff": false,
         "min_object_distance_fff": "2"
     },
     "filaments": [
@@ -108,22 +114,22 @@
         "Bambu Support For PLA @BBL A1M",
         "Bambu Support For PLA @BBL X1C",
         "Bambu TPU 95A @BBL A1M",
+        "Generic ABS @System",
+        "Generic ASA @System",
+        "Generic PA @System",
+        "Generic PA-CF @System",
+        "Generic PC @System",
         "Generic PETG",
         "Generic PETG @BBL A1M",
+        "Generic PETG @System",
         "Generic PLA",
         "Generic PLA @BBL A1M",
+        "Generic PLA @System",
         "Generic PLA High Speed @BBL A1M",
         "Generic PLA High Speed @BBL X1C",
-        "My Generic ABS",
-        "My Generic ASA",
-        "My Generic PA",
-        "My Generic PA-CF",
-        "My Generic PC",
-        "My Generic PETG",
-        "My Generic PLA",
-        "My Generic PLA-CF",
-        "My Generic PVA",
-        "My Generic TPU",
+        "Generic PLA-CF @System",
+        "Generic PVA @System",
+        "Generic TPU @System",
         "RatRig Generic ABS",
         "RatRig Generic ASA",
         "RatRig Generic PA",
@@ -134,16 +140,6 @@
         "RatRig Generic PLA-CF",
         "RatRig Generic PVA",
         "RatRig Generic TPU",
-        "Voron Generic ABS",
-        "Voron Generic ASA",
-        "Voron Generic PA",
-        "Voron Generic PA-CF",
-        "Voron Generic PC",
-        "Voron Generic PETG",
-        "Voron Generic PLA",
-        "Voron Generic PLA-CF",
-        "Voron Generic PVA",
-        "Voron Generic TPU",
         "Vzbot Generic ABS",
         "Vzbot Generic ASA",
         "Vzbot Generic PA",
@@ -158,7 +154,7 @@
     "firstguide": {
         "finish": true
     },
-    "header": "OrcaSlicer 2.1.1",
+    "header": "OrcaSlicer 2.3.0",
     "models": [
         {
             "model": "Bambu Lab A1 mini",
@@ -186,6 +182,11 @@
             "vendor": "Voron"
         },
         {
+            "model": "Voron Trident 250",
+            "nozzle_diameter": "0.4",
+            "vendor": "Voron"
+        },
+        {
             "model": "Vzbot 235 AWD",
             "nozzle_diameter": "0.4",
             "vendor": "Vzbot"
@@ -207,9 +208,18 @@
     },
     "orca_presets": [
         {
-            "curr_bed_type": "3",
+            "curr_bed_type": "4",
+            "filament": "Generic PLA @BBL A1",
+            "filament_colors": "#808080",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Bambu Lab A1 0.4 nozzle",
+            "process": "0.20mm Standard @BBL A1"
+        },
+        {
+            "curr_bed_type": "4",
             "filament": "Bambu PLA Basic @BBL A1M",
-            "filament_colors": "#FF8040",
+            "filament_colors": "#808080",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Bambu Lab A1 mini 0.4 nozzle",
@@ -235,12 +245,21 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "RatRig Generic PLA",
+            "filament": "V-Core ASA",
             "filament_colors": "#FF8040",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "My RatRig V-Core 3 400 0.4 nozzle",
-            "process": "0.20mm Standard @RatRig"
+            "process": "0.20mm Functional VC"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "V-Core PLA 0.5 Nozzle",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "My RatRig V-Core 3 400 0.5 nozzle",
+            "process": "0.20mm Terrain - VC .5 Nozzle"
         },
         {
             "curr_bed_type": "3",
@@ -271,21 +290,30 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Voron Generic ABS - Copy",
+            "filament": "Trident PLA",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "My Voron Trident 180 0.4 nozzle",
+            "process": "0.20mm Standard @Voron - Copy"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Voron V0 ASA",
             "filament_colors": "#26A69A",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "My Voron v0",
-            "process": "V0 Terrain"
+            "process": "0.20mm Slow ASA V0"
         },
         {
             "curr_bed_type": "3",
-            "filament": "My Vzbot PLA",
+            "filament": "Vzbot ASA Overture",
             "filament_colors": "#FF8040",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "My Vzbot 235 AWD 0.4 nozzle",
-            "process": "0.20mm Terrain - Vz"
+            "process": "0.20mm Functional Parts"
         },
         {
             "curr_bed_type": "3",
@@ -325,11 +353,29 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Voron Generic PLA",
+            "filament": "Generic PLA @System",
             "filament_colors": "#26A69A",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Voron 0.1 0.4 nozzle",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic PLA @System",
+            "filament_colors": "#26A69A",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron 0.1 0.4 nozzle - Copy",
+            "process": "0.20mm Standard @Voron"
+        },
+        {
+            "curr_bed_type": "3",
+            "filament": "Generic PLA @System",
+            "filament_colors": "#FF8040",
+            "flush_volumes_matrix": "0.000000",
+            "flush_volumes_vector": "140.000000|140.000000",
+            "machine": "Voron Trident 250 0.4 nozzle",
             "process": "0.20mm Standard @Voron"
         },
         {
@@ -353,7 +399,7 @@
     ],
     "presets": {
         "filaments": null,
-        "machine": "My RatRig V-Core 3 400 0.6 nozzle"
+        "machine": "My RatRig V-Minion 0.4 nozzle"
     },
     "print": {
         "bed_leveling": "1",
@@ -361,8 +407,13 @@
         "timelapse": "1"
     },
     "recent": {
-        "last_opened_folder": "E:\\3D Printing\\__FDM",
-        "printhost_path": ""
+        "last_opened_folder": "C:\\Users\\Adam\\Downloads",
+        "printhost_path": "",
+        "settings_folder": "C:\\Users\\Adam\\Downloads"
+    },
+    "recent_projects": {
+        "01": "E:\\3D Printing\\__FDM\\Voron-Trident\\STLs\\Gantry\\AB_Drive_Units\\ab_drive_brackets.3mf",
+        "02": "C:\\Users\\Adam\\Downloads\\BambuLab A1 - Temperature tower (PLA 200-240)-Reversed.3mf"
     }
 }
-# MD5 checksum C385517C112A4A06AEF46DD2D38AD376
+# MD5 checksum 89B15DFE6D3EED5C50137338A45FEEE6

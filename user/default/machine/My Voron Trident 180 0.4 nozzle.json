@@ -1,0 +1,26 @@
+{
+    "from": "User",
+    "inherits": "Voron Trident 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nprint_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature] CHAMBER=[chamber_temperature]",
+    "name": "My Voron Trident 180 0.4 nozzle",
+    "print_host": "10.0.2.2",
+    "printable_area": [
+        "0x0",
+        "175x0",
+        "175x180",
+        "0x180"
+    ],
+    "printable_height": "180",
+    "printer_settings_id": "My Voron Trident 180 0.4 nozzle",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "version": "2.3.0.3",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0"
+    ]
+}

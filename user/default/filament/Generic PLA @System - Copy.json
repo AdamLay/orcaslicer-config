@@ -1,0 +1,28 @@
+{
+    "compatible_printers": [
+        "Voron Trident 250 0.4 nozzle"
+    ],
+    "filament_settings_id": [
+        "Generic PLA @System - Copy"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Generic PLA @System - Copy",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "200"
+    ],
+    "version": "2.3.0.3"
+}
